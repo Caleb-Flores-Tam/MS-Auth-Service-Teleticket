@@ -1,8 +1,8 @@
-package com.luisalt20.auth.mapper;
+package com.teleticket.auth.mapper;
 
-import com.luisalt20.auth.dto.request.VerificationCodeEmailRequest;
-import com.luisalt20.auth.dto.response.VerificationCodeEmailResponse;
-import com.luisalt20.auth.entity.VerificationCodeEmail;
+import com.teleticket.auth.dto.request.VerificationCodeEmailRequest;
+import com.teleticket.auth.dto.response.VerificationCodeEmailResponse;
+import com.teleticket.auth.entity.VerificationCodeEmail;
 import org.mapstruct.BeanMapping;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

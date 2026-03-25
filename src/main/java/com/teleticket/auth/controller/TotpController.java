@@ -1,10 +1,10 @@
-package com.luisalt20.auth.controller;
+package com.teleticket.auth.controller;
 
-import com.luisalt20.auth.dto.response.ApiResponse;
-import com.luisalt20.auth.exception.ApiValidateException;
-import com.luisalt20.auth.service.AuthService;
-import com.luisalt20.auth.service.TotpSessionService;
-import com.luisalt20.auth.util.ConstantUtil;
+import com.teleticket.auth.dto.response.ApiResponse;
+import com.teleticket.auth.exception.ApiValidateException;
+import com.teleticket.auth.service.AuthService;
+import com.teleticket.auth.service.TotpSessionService;
+import com.teleticket.auth.util.ConstantUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;

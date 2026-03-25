@@ -1,4 +1,4 @@
-package com.luisalt20.auth.dto.enumeration;
+package com.teleticket.auth.dto.enumeration;
 
 public enum UserStatus { ACTIVE, PENDING, LOCKED, DELETED }
 

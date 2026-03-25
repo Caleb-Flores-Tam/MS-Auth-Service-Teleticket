@@ -1,6 +1,6 @@
-package com.luisalt20.auth.dto.response;
+package com.teleticket.auth.dto.response;
 
-import com.luisalt20.auth.dto.enumeration.UserStatus;
+import com.teleticket.auth.dto.enumeration.UserStatus;
 
 import java.util.List;
 

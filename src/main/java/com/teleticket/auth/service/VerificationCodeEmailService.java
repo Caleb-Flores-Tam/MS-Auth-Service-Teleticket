@@ -1,12 +1,12 @@
-package com.luisalt20.auth.service;
+package com.teleticket.auth.service;
 
-import com.luisalt20.auth.dto.request.EmailRequest;
-import com.luisalt20.auth.dto.request.VerificationCodeEmailRequest;
-import com.luisalt20.auth.entity.VerificationCodeEmail;
-import com.luisalt20.auth.exception.ApiValidateException;
-import com.luisalt20.auth.mapper.VerificationCodeMapper;
-import com.luisalt20.auth.repository.UserRepository;
-import com.luisalt20.auth.repository.VerificationCodeEmailRepository;
+import com.teleticket.auth.dto.request.EmailRequest;
+import com.teleticket.auth.dto.request.VerificationCodeEmailRequest;
+import com.teleticket.auth.entity.VerificationCodeEmail;
+import com.teleticket.auth.exception.ApiValidateException;
+import com.teleticket.auth.mapper.VerificationCodeMapper;
+import com.teleticket.auth.repository.UserRepository;
+import com.teleticket.auth.repository.VerificationCodeEmailRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;

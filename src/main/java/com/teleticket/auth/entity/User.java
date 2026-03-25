@@ -1,6 +1,6 @@
-package com.luisalt20.auth.entity;
+package com.teleticket.auth.entity;
 
-import com.luisalt20.auth.dto.enumeration.UserStatus;
+import com.teleticket.auth.dto.enumeration.UserStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;

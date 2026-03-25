@@ -1,4 +1,4 @@
-package com.luisalt20.auth.config;
+package com.teleticket.auth.config;
 
 import com.nimbusds.jose.jwk.JWK;
 import com.nimbusds.jose.jwk.JWKSet;
@@ -16,8 +16,8 @@ import org.springframework.security.oauth2.jwt.NimbusJwtEncoder;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 
-import static com.luisalt20.auth.util.KeyUtils.loadPrivateKeyFromKeystore;
-import static com.luisalt20.auth.util.KeyUtils.loadPublicKeyFromKeystore;
+import static com.teleticket.auth.util.KeyUtils.loadPrivateKeyFromKeystore;
+import static com.teleticket.auth.util.KeyUtils.loadPublicKeyFromKeystore;
 
 @Configuration
 public class JwtConfig {

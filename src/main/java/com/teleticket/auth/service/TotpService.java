@@ -1,4 +1,4 @@
-package com.luisalt20.auth.service;
+package com.teleticket.auth.service;
 
 import com.eatthepath.otp.TimeBasedOneTimePasswordGenerator;
 import org.springframework.stereotype.Service;

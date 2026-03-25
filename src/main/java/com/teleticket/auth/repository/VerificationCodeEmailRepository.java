@@ -1,6 +1,6 @@
-package com.luisalt20.auth.repository;
+package com.teleticket.auth.repository;
 
-import com.luisalt20.auth.entity.VerificationCodeEmail;
+import com.teleticket.auth.entity.VerificationCodeEmail;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

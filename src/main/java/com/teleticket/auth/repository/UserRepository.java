@@ -1,6 +1,6 @@
-package com.luisalt20.auth.repository;
+package com.teleticket.auth.repository;
 
-import com.luisalt20.auth.entity.User;
+import com.teleticket.auth.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

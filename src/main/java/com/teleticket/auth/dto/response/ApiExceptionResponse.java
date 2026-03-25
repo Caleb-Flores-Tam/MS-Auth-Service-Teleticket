@@ -1,4 +1,4 @@
-package com.luisalt20.auth.dto.response;
+package com.teleticket.auth.dto.response;
 
 
 import lombok.*;

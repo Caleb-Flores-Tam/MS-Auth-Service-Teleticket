@@ -1,6 +1,6 @@
-package com.luisalt20.auth.service;
+package com.teleticket.auth.service;
 
-import com.luisalt20.auth.config.JwtProperties;
+import com.teleticket.auth.config.JwtProperties;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.oauth2.jwt.*;
 import org.springframework.stereotype.Service;

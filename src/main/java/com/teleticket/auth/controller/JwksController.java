@@ -1,6 +1,6 @@
-package com.luisalt20.auth.controller;
+package com.teleticket.auth.controller;
 
-import com.luisalt20.auth.config.JwtProperties;
+import com.teleticket.auth.config.JwtProperties;
 import com.nimbusds.jose.jwk.JWKSet;
 import com.nimbusds.jose.jwk.RSAKey;
 import org.springframework.web.bind.annotation.GetMapping;

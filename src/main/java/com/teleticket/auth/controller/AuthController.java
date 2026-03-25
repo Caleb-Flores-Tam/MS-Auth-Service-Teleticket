@@ -1,14 +1,14 @@
-package com.luisalt20.auth.controller;
+package com.teleticket.auth.controller;
 
-import com.luisalt20.auth.dto.request.*;
-import com.luisalt20.auth.dto.response.*;
-import com.luisalt20.auth.mapper.UserMapper;
-import com.luisalt20.auth.repository.UserRepository;
-import com.luisalt20.auth.repository.UserRoleRepository;
-import com.luisalt20.auth.service.AuthService;
-import com.luisalt20.auth.service.PasswordResetService;
-import com.luisalt20.auth.service.VerificationCodeEmailService;
-import com.luisalt20.auth.util.ConstantUtil;
+import com.teleticket.auth.dto.request.*;
+import com.teleticket.auth.dto.response.*;
+import com.teleticket.auth.mapper.UserMapper;
+import com.teleticket.auth.repository.UserRepository;
+import com.teleticket.auth.repository.UserRoleRepository;
+import com.teleticket.auth.service.AuthService;
+import com.teleticket.auth.service.PasswordResetService;
+import com.teleticket.auth.service.VerificationCodeEmailService;
+import com.teleticket.auth.util.ConstantUtil;
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;

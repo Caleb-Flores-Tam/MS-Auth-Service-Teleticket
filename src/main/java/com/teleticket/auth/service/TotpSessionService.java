@@ -1,8 +1,8 @@
-package com.luisalt20.auth.service;
+package com.teleticket.auth.service;
 
-import com.luisalt20.auth.config.JwtProperties;
-import com.luisalt20.auth.exception.ApiValidateException;
-import com.luisalt20.auth.util.ConstantUtil;
+import com.teleticket.auth.config.JwtProperties;
+import com.teleticket.auth.exception.ApiValidateException;
+import com.teleticket.auth.util.ConstantUtil;
 import org.springframework.stereotype.Service;
 
 import java.time.Instant;

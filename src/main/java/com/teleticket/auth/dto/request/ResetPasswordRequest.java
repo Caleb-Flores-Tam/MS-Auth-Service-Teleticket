@@ -1,4 +1,4 @@
-package com.luisalt20.auth.dto.request;
+package com.teleticket.auth.dto.request;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Size;

@@ -1,4 +1,4 @@
-package com.luisalt20.auth.config;
+package com.teleticket.auth.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -7,8 +7,8 @@ import java.security.KeyPair;
 import java.security.interfaces.RSAPrivateKey;
 import java.security.interfaces.RSAPublicKey;
 
-import static com.luisalt20.auth.util.KeyUtils.loadPrivateKeyFromKeystore;
-import static com.luisalt20.auth.util.KeyUtils.loadPublicKeyFromKeystore;
+import static com.teleticket.auth.util.KeyUtils.loadPrivateKeyFromKeystore;
+import static com.teleticket.auth.util.KeyUtils.loadPublicKeyFromKeystore;
 
 @Configuration
 public class KeyConfig {

@@ -1,8 +1,8 @@
-package com.luisalt20.auth.mapper;
+package com.teleticket.auth.mapper;
 
-import com.luisalt20.auth.dto.request.RegisterRequest;
-import com.luisalt20.auth.dto.response.UserResponse;
-import com.luisalt20.auth.entity.User;
+import com.teleticket.auth.dto.request.RegisterRequest;
+import com.teleticket.auth.dto.response.UserResponse;
+import com.teleticket.auth.entity.User;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

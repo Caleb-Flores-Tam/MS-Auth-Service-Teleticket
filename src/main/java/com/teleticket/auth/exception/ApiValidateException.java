@@ -1,4 +1,4 @@
-package com.luisalt20.auth.exception;
+package com.teleticket.auth.exception;
 
 public class ApiValidateException extends RuntimeException {
     public ApiValidateException() {

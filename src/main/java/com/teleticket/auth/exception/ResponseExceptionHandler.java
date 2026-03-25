@@ -1,7 +1,7 @@
-package com.luisalt20.auth.exception;
+package com.teleticket.auth.exception;
 
-import com.luisalt20.auth.dto.response.ApiExceptionResponse;
-import com.luisalt20.auth.util.ConstantUtil;
+import com.teleticket.auth.dto.response.ApiExceptionResponse;
+import com.teleticket.auth.util.ConstantUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

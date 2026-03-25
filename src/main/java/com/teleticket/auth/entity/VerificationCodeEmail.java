@@ -1,4 +1,4 @@
-package com.luisalt20.auth.entity;
+package com.teleticket.auth.entity;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;

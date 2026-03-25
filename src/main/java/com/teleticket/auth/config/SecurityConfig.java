@@ -1,4 +1,4 @@
-package com.luisalt20.auth.config;
+package com.teleticket.auth.config;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Value;

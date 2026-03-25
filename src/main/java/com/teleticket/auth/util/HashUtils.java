@@ -1,4 +1,4 @@
-package com.luisalt20.auth.util;
+package com.teleticket.auth.util;
 
 import java.nio.charset.StandardCharsets;
 
