@@ -1,0 +1,71 @@
+server:
+  port: ${SERVER_PORT:8081}
+
+spring:
+  application:
+    name: ${APP_NAME}
+  datasource:
+    url: ${DB_URL}
+    username: ${DB_USERNAME}
+    password: ${DB_PASSWORD}
+    hikari:
+      pool-name: AuthHikariPool
+      maximum-pool-size: 20
+      minimum-idle: 2
+
+      max-lifetime: 300000       # 5 minutos
+      idle-timeout: 120000       # 2 minutos
+      keepalive-time: 60000      # 1 minuto
+
+      connection-timeout: 30000
+      validation-timeout: 5000
+      connection-test-query: SELECT 1
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
+    show-sql: false
+  logging:
+    level:
+      org.springframework.security: DEBUG
+      org.springframework: DEBUG
+      com.bcpconsulting: DEBUG
+      com.zaxxer.hikari: DEBUG
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+jwt:
+  alg: RS256
+  issuer: ${JWT_ISSUER:http://localhost:8081}
+  keystore:
+    location: classpath:as-keystore.p12
+    password: ${JWT_KEYSTORE_PASSWORD}
+    alias: as-rsa
+    key-password: ${JWT_KEYSTORE_KEY_PASSWORD}
+  access-ttl: PT30M
+  refresh-ttl: P30D
+  aud: teleticket
+  uuid: 5f638321-e435-47d8-ad1d-d1718c1560c8
+  validateSeconds: 120
+  nameTotp: Teleticket
+  uri-front: ${FRONTEND_URL}
+
+#Configuracion para recuperacion de contraseña
+email:
+  service:
+    url: ${EMAIL_SERVICE_URL}
+
+app:
+  url:
+    from:
+      image: https://cdnp.teleticket.com.pe/Content/images/estilo-2021/logos/logo.png
+  frontend:
+    url: ${FRONTEND_URL}  # URL de tu frontend
+
+password:
+  reset:
+    token:
+      expiration:
+        minutes: 30
+
+# mvn spring-boot:run "-Dspring-boot.run.arguments=--APP_NAME=ms-auth-service --SERVER_PORT=8081 --DB_URL=jdbc:postgresql://129.213.99.222:5432/auth_db_dev --DB_USERNAME=admin --DB_PASSWORD=us0d01h91834m984j1zq4d --JWT_ISSUER=http://localhost:8081 --JWT_KEYSTORE_PASSWORD=changeit --JWT_KEYSTORE_KEY_PASSWORD=changeit --EMAIL_SERVICE_URL=http://localhost:8889 --FRONTEND_URL=http://localhost:3000"

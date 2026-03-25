@@ -1,0 +1,10 @@
+package com.luisalt20.auth.dto.request;
+
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
+
+public record AdminResetCredentialsRequest(
+        @Email @NotBlank String email,
+        String newPassword
+) {
+}
